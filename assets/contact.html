@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarditou/Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="http://bienvu.net/script.php" method="post">
+    <header>
+        <img src="img/jarditou_logo.jpg" alt="jarditou_logo" title="jarditou logo" height="100" width="340">
+        <p class="jardin"><small>Tout le jardin</small></p>
+    </header>
+    <nav class="nav">
+        <a href="index.html" title="accéder accueil" class="index"> Accueil</a>
+        <a href="tableau.html" title="accéder au tableau" class="tableau"> Tableau </a>
+        <a href="contact.html" title="accéder aux contacts" class="contact"> Contact </a>
+    </nav>
+    <section class="section_contact">
+        <img src="img/promotion.jpg" alt="promotion sur les lames de terrasse" title="promotion sur les lames de terrasse" class="promotion_img_contact">
+        <h1 id="h1_contact"><br>Contact</h1><hr>
+        <article class="article_contact">
+                <h5>* Ces zones sont obligatoires</h5>
+            <fieldset class="fieldset_contact">
+                    <legend>Vos coordonnées</legend>
+               <label for="nom">Votre nom* :</label><input type="text" name="nom" id="nom" pattern="[a-z]+$" required title="NOM"><br>
+               <label for="prenom">Votre prenom* :</label><input type="text" name="prenom" id="prenom" pattern="[a-z]+$" required title="PRENOM"><br>
+               <br><label for="sexe">Sexe*</label> <input type="radio" name="sexe" id="sexe" value="féminin" required title="SEXE">Féminin
+               <input type="radio" name="sexe" value="masculin" required title="SEXE">Masculin<br>
+               <br><label for="date">Date de naissance* :</label><input type="date" name="date de naissance" id="date" size="10"  required title="DATE DE NAISSANCE"><br>
+               <label for="postal">Code postal* :</label><input type="text" name="code postal" id="postal" pattern="[a-z]+$" size="10" maxlength="10" required title="CODE POSTAL"><br>
+               <label for="adresse">Adresse :</label><input type="text" name="adresse" id="adresse" pattern="[a-z]+$" size="25" maxlength="50"><br>
+               <label for="ville">Ville :</label>:<input type="text" name="ville" id="ville" pattern="[a-z]+$" size="25" maxlength="50"><br>
+               <label for="email">Email * :</label><input type="email" name="email" id="email" size="25" required title="EMAIL"><br>
+            </fieldset><br>
+            <fieldset class="fieldset_contact">
+                <legend>Votre demande</legend>
+                <label for="sujet" >Sujet*</label>
+                <select name="sujet" id="sujet" required title="erreur saisie">
+                    <option value="" selected>Veuillez séléctionner un sujet.</option>
+                    <option value="Mes commandes">Mes commandes</option>
+                    <option value="Question sur un produit">Question sur un produit</option>
+                    <option value="Réclamation">Réclamation</option>
+                    <option value="Autres">Autres</option>
+                </select><br>
+                <label for="question">Votre question* :</label>
+                <textarea name="question" id="question" cols="25" rows="3" required title="erreur saisie"></textarea>
+        </fieldset><br>
+        <input type="checkbox" name="accepte traitement informatique" id="données" required title="erreur saisie"> <label for="données">*J'accepte le traitement informatique de ce formulaire</label><br>
+         <br><input type="submit" value="Envoyer"> <input type="reset" value="Annuler"> 
+        </form>
+        </article><hr>
+    </section>
+    <aside class="aside_contact">
+        <p class="colonne_aside">[colonne droite]</p>
+      </aside>
+    <footer class="footer_contact">
+        <a href="#" title="accéder aux mention légales" class="legale">Mention légales</a> 
+        <a href="#" title="accéder Horaires" class="horaire"> Horaires</a>
+        <a href="#" title="accéder au plan du site" class="plan"> Plan du site</a>
+    </footer>
+</body>
+</html>

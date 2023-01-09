@@ -1,0 +1,352 @@
+/* Commun aux trois pages .html */
+@media screen and (min-width:769px) {
+.jardin{
+    font-size: 30px;
+    top:-100px;
+    left: 750px;
+    position: relative;
+    }
+.nav{
+    background: #000;
+    height: 60px;
+    width: 1160px;
+    top: -80px;
+    position: relative;
+    right: 50px;
+}
+.index{
+    color: #FFF;
+    top: 17px;
+    left: 80px;
+    position: relative;
+}
+.tableau{
+    color: #FFF;
+    top:17px;
+    left: 83px;
+    position: relative;
+}
+.contact{
+    color: #FFF;
+    top:17px;
+    left: 88px;
+    position: relative;
+}
+.legale{
+    color: #FFF;
+    top: 17px;
+    left: 80px;
+    position: relative;
+}
+hr{
+    position: relative;
+    right: 1200px;
+    top: -75px;
+    
+}
+.horaire{
+    color: #FFF;
+    top: 17px;
+    left: 80px;
+    position: relative;
+}
+.plan{
+    color: #FFF;
+    top: 17px;
+    left: 80px;
+    position: relative;
+}
+
+.colonne_aside{
+    color: #000;
+    text-transform: uppercase;
+
+}
+
+/* CSS de la page index.html */
+.description_index{
+   width: 625px;
+   position: relative;
+   top: -80px;
+
+}
+.aside_index{
+    background: #DDDDDD;
+    position: relative;
+    left: 630px;
+    height: 528px;
+    width: 480px;
+    top: -621px;
+
+}
+.promotion_img_index{
+    position: relative;
+    top: -78px;
+    right: 8px;
+    height: 215.5px;
+}
+.footer_index{
+    background: #000;
+    height: 60px;
+    width: 1160px;
+    top: -621px;
+    right: 50px;
+    position: relative;
+}
+/* CSS de la page tableau.html */
+.promotion_img_table{
+    position: relative;
+    top: -78px;
+    right: 8px;
+    width: 1118px;
+}
+#h1_table{
+    position: relative;
+    top: -80px;
+}
+.table{
+    position: relative;
+    top: -60px;
+}
+.aside_table{
+    background: #DDDDDD;
+    position: relative;
+    left: 630px;
+    height: 758px;
+    width: 480px;
+    top: -845px;
+
+}
+.footer_table{
+    background: #000;
+    height: 60px;
+    width: 1160px;
+    top: -852px;
+    right: 50px;
+    position: relative;
+}
+/* CSS de la page contact.html */
+.promotion_img_contact{
+    position: relative;
+    top: -78px;
+    right: 8px;
+    width: 1118px;
+}
+#h1_contact{
+    position: relative;
+    top: -90px;
+}
+.article_contact{
+    position: relative;
+    top: -80px;
+}
+.fieldset_contact{
+    width: 580px;
+}
+.aside_contact{
+    background: #DDDDDD;
+    position: relative;
+    left: 630px;
+    height: 630px;
+    width: 480px;
+    top: -725px;
+
+}
+.footer_contact{
+    background: #000;
+    height: 60px;
+    width: 1160px;
+    top: -725px;
+    right: 50px;
+    position: relative;
+}
+}
+/* web responsive >768px */
+@media screen and (max-width:768px) { 
+.jardin{
+    font-size:xx-large;
+    top:-100px;
+    left: 550px;
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    }
+.nav{
+    background: #000;
+    height: 100px;
+    width: 808px;
+    top: -80px;
+    position: relative;
+    right: 50px;
+}
+.index{
+    color: #FFF;
+    top: 15px;
+    left: 80px;
+    position: relative;
+    font-size: smaller;
+}
+.tableau{
+    color: #FFF;
+    top: 38px;
+    left: 25px;
+    position: relative;
+    font-size: smaller;
+}
+.contact{
+    color: #FFF;
+    top:60px;
+    left: -32px;
+    position: relative;  
+    font-size: smaller;
+}
+.legale{
+    color: #FFF;
+    top: 20px;
+    left: 80px;
+    position: relative;
+    font-size: smaller;
+}
+hr{
+    position: relative;
+    right: 10px;
+    top: -80px;
+    width: 766px;
+    
+}
+.horaire{
+    color: #FFF;
+    top: 40px;
+    left: -33px;
+    position: relative;
+    font-size: smaller;
+}
+.plan{
+    color: #FFF;
+    top: 60px;
+    left: -98px;
+    position: relative;
+    font-size: smaller;
+}
+
+.colonne_aside{
+    color: #FFF;
+    text-transform: uppercase;
+    display: none;
+
+}
+
+/* CSS de la page index.html */
+.section_index{
+    height: 438px;
+}
+.description_index{
+   width: 625px;
+   position: relative;
+   top: -80px;
+   font-size: smaller;
+
+}
+h2{
+    font-size: smaller;
+}
+.aside_index{
+    background: #FFF;
+    position: relative;
+    display: none;
+
+}
+.promotion_img_index{
+    position: relative;
+    top: -78px;
+    right: 8px;
+    height: 147.5px;
+}
+.footer_index {
+    background: #000;
+    height: 100px;
+    width: 1160px;
+    right: 50px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+  }
+/* CSS de la page tableau.html */
+.promotion_img_table{
+    position: relative;
+    top: -78px;
+    right: 8px;
+    width: 765px;
+}
+.section_table{
+    height: 793px;
+}
+#h1_table{
+    position: relative;
+    top: -80px;
+    font-size: smaller;
+}
+.table{
+    position: relative;
+    top: -60px;
+    font-size: smaller;
+}
+
+.aside_table{
+    background: #FFF;
+    position: relative;
+    display: none;
+
+}
+.footer_table{
+    background: #000;
+    height: 100px;
+    width: 1160px;
+    right: 50px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+/* CSS de la page contact.html */
+.promotion_img_contact{
+    position: relative;
+    top: -78px;
+    right: 8px;
+    width: 766px;
+}
+.section_contact{
+    height: 613px;
+}
+#h1_contact{
+    position: relative;
+    top: -90px;
+    font-size: smaller;
+}
+.article_contact{
+    position: relative;
+    top: -80px;
+    font-size: smaller;
+}
+.fieldset_contact{
+    width: 580px;
+    font-size: smaller;
+}
+.aside_contact{
+    background: #DDDDDD;  
+    position: relative;
+    left: 630px;
+    height: 630px;
+    width: 480px;
+    top: -725px;
+    display: none;
+
+}
+.footer_contact{
+    background: #000;
+    height: 100px;
+    width: 1160px;
+    right: 50px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+}
