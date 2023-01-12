@@ -1,18 +1,25 @@
-var age = window.prompt("saisissez vôtre âge");
-var i = 0;
-var table = "a"
-while (i <= 100) 
-{   
-    // Exécute le calcul et stocke le résultat   
-    // dans une variable nommée ‘resultat’  
-    resultat = age>20;
-
-    // A chaque tour, on affiche le résultat courant à l’utilisateur
-    console.log("Personne de moins de 20 ans:"+a+);
-
-    // A chaque tour, on ajoute +1 à la variable i  
-    i++; 
+let age = prompt("quel est votre âge ?")
+let i = 0
+let personne1 = 0
+let personne2 = 0
+let personne3 = 0
+while (i<=100){
+    let age = prompt("quel est votre âge ?")
+if (age<20){ 
+    personne1++
+    i++
+    continue
 }
-
-// instructions exécutées après le for (i vaut 10)
-console.log("fin de la boucle");
+else if (age>20 && age<=40){
+personne2++
+i++
+continue
+}
+else {
+personne3++
+i++
+continue
+}}
+document.write("Personne de moins de 20 ans : " +personne1 + "<br>" )
+document.write("Personne dont l'âge est compris entre 20 ans et 40 ans : " +personne2 + "<br>")
+document.write("Personne dont l'âge est supérieur à 40 ans : " +personne3 + "<br>")
