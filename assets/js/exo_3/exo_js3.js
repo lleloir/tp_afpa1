@@ -1,7 +1,10 @@
-let table=["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];
 let prenom= prompt("saisir un prenom");
-if(prenom==audrey){
-    alert("un prenom trouvé de la liste");
-    [audrey]=[""]
-    
+let table=["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];
+if (prenom = ){
+    function reussi(){
+    last= table.push();
+    console.log(last);
+    var table1 = table.push("");
+    document.write("le prénom a été trouvé dans la liste");
+    }
 }
