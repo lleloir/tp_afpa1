@@ -1,10 +1,10 @@
 let prenom= prompt("saisir un prenom");
 let table=["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];
-if (prenom = ){
-    function reussi(){
-    last= table.push();
-    console.log(last);
-    var table1 = table.push("");
-    document.write("le prénom a été trouvé dans la liste");
-    }
+if(table.find( element => element == prenom)){
+    let element = (table.indexOf(""))
+    console.log(table.slice(element))
+    console.log(table.push(""))
+document.write("prénom trouvé dans la liste")
 }
+else{
+    document.write("prénom non trouvé")}
