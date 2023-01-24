@@ -10,10 +10,10 @@ if(tot<100){
     let d = (tot*port)
     if (d<6){
     let pap = (tot+6)
-    document.write(pap+" euros")
+    document.write("total à payer "+pap.toFixed(2)+" euros"+"<br>"+"remise de "+totrem+" euros"+"<br>"+"frais de port "+"6"+" euros")
     }
 }
-else if(tot>100 && tot<=200){
+else if(tot>=100 && tot<=200){
     let port = 0.02
     let rem = 0.05
    let totrem = (tot*rem)
@@ -21,7 +21,7 @@ else if(tot>100 && tot<=200){
    let d = (e*port)
     if(d<6){
     let pap = (e+6)
-    document.write(pap+" euros")
+    document.write("total à payer "+pap.toFixed(2)+" euros"+"<br>"+"remise de "+totrem+" euros"+"<br>"+"frais de port "+"6"+" euros")
    }}
   else if(tot>200 && tot<=500){
     let port = 0.02
@@ -31,11 +31,11 @@ else if(tot>100 && tot<=200){
    let d = (e*port)
     if(d<6){
     let pap = (e+6)
-    document.write(pap+" euros")
+    document.write("total à payer "+pap.toFixed(2)+" euros"+"<br>"+"remise de "+totrem+" euros"+"<br>"+"frais de port "+"6"+" euros")
    }
    else (d>6); {
     let pap = (e+d)
-    document.write(pap+" euros")
+    document.write("total à payer "+pap.toFixed(2)+" euros"+"<br>"+"remise de "+totrem+" euros"+"<br>"+"frais de port "+d.toFixed(2)+" euros")
    }  
 }
 else if(tot>500){
@@ -45,17 +45,18 @@ else if(tot>500){
    let e = (tot-totrem)
     if(e>500){
    let pap = (e)
-   document.write(pap+" euros") 
+   document.write("total à payer "+pap.toFixed(2)+" euros"+"<br>"+"remise de "+totrem+" euros"+"<br>"+"frais de port "+d.toFixed(2)+" euros") 
    }
    else {
    let d = (e*port)
    if(d<6){
     let pap = (e+6)
-    document.write(pap+" euros")
+    document.write("total à payer "+pap.toFixed(2)+" euros"+"<br>"+"remise de "+totrem+" euros"+"<br>"+"frais de port "+"6"+" euros")
    }
    else if (d>6 && e<500) {
     let pap = (e+d)
-    document.write(pap+" euros")
+    document.write("total à payer "+pap.toFixed(2)+" euros"+"<br>"+"remise de "+totrem+" euros"+"<br>"+"frais de port "+d.toFixed(2)+" euros")
+
    } } }
 
   
