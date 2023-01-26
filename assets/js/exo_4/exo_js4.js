@@ -1,3 +1,4 @@
+function exo_4(){
 let pu = parseFloat(prompt("Saisir un prix"))
 let qtecom = parseInt(prompt("Saisir une quantité"))
 let tot=(pu*qtecom) 
@@ -57,7 +58,7 @@ else if(tot>500){
     let pap = (e+d)
     document.write("total à payer "+pap.toFixed(2)+" euros"+"<br>"+"remise de "+totrem+" euros"+"<br>"+"frais de port "+d.toFixed(2)+" euros")
 
-   } } }
+   } } }}
 
   
 

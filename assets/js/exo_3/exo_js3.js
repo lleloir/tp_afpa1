@@ -1,3 +1,4 @@
+function exo_3(){
 let table=["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];
 
 while(vrai = true){
@@ -13,4 +14,4 @@ if(index > -1){
 else
 {   continue
     
-}}
+}}}
