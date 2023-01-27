@@ -15,9 +15,12 @@ let données = document.getElementById(données);
 const regex1 = RegExp("^[A-Za-z]+$")
 const regex2 = RegExp("^[A-Za-z]+$"+"")
 const regex3 = RegExp("^[A-Za-z]+$")
-if(regex1.test(nom)){
+if(regex1.test.value(nom)){
+
 }
 else{
+    let nom1= document.getElementById(nom1)
+    nom1.innerHTML("Veuillez entrer votre nom")
     e.preventDefault()
 }
 })

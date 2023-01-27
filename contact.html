@@ -9,7 +9,6 @@
     <script src="/assets/js/jarditou_js.js"></script>
 </head>
 <body>
-    <form action="http://bienvu.net/script.php" method="post">
     <header>
         <img src="/assets/img/jarditou_logo.jpg" alt="jarditou_logo" title="jarditou logo" height="100" width="340">
         <p class="jardin"><small>Tout le jardin</small></p>
@@ -22,13 +21,13 @@
     </ul>
     </nav>
     <section class="section_contact">
+        <form action="http://bienvu.net/script.php" method="post" id="form">
         <img src="/assets/img/promotion.jpg" alt="promotion sur les lames de terrasse" title="promotion sur les lames de terrasse" class="promotion_img_contact">
         <h1 id="h1_contact"><br>Contact</h1><hr>
         <article class="article_contact">
                 <h5>* Ces zones sont obligatoires</h5>
             <fieldset class="fieldset_contact">
                     <legend>Vos coordonnées</legend>
-                    <form id="form">
                <label for="nom">Votre nom* :</label><input type="text" name="nom" id="nom" title="NOM"><br>
                <span id="nom1"></span>
                <label for="prenom">Votre prenom* :</label><input type="text" name="prenom" id="prenom"title="PRENOM"><br>
@@ -64,8 +63,8 @@
         </fieldset><br>
         <input type="checkbox" name="accepte traitement informatique" id="données"  title="erreur saisie"> <label for="données">*J'accepte le traitement informatique de ce formulaire</label><br>
          <br><input type="submit" value="Envoyer"> <input type="reset" value="Annuler"> 
-        </form>
         </article><hr>
+    </form>
     </section>
     <aside class="aside_contact">
         <p class="colonne_aside">[colonne droite]</p>
