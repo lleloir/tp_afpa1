@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jarditou/Contact</title>
     <link rel="stylesheet" href="/assets/css/style.css">
-    <script src="/assets/js/jarditou_js.js"></script>
 </head>
 <body>
     <header>
@@ -22,34 +21,34 @@
     </nav>
     <section class="section_contact">
         <form action="http://bienvu.net/script.php" method="post" id="form">
-        <img src="/assets/img/promotion.jpg" alt="promotion sur les lames de terrasse" title="promotion sur les lames de terrasse" class="promotion_img_contact">
+        <img src="assets/img/promotion.jpg" alt="promotion sur les lames de terrasse" title="promotion sur les lames de terrasse" class="promotion_img_contact">
         <h1 id="h1_contact"><br>Contact</h1><hr>
         <article class="article_contact">
                 <h5>* Ces zones sont obligatoires</h5>
             <fieldset class="fieldset_contact">
                     <legend>Vos coordonnées</legend>
                <label for="nom">Votre nom* :</label><input type="text" name="nom" id="nom" title="NOM"><br>
-               <span id="nom1"></span>
+               <span id="nom1"></span><br>
                <label for="prenom">Votre prenom* :</label><input type="text" name="prenom" id="prenom"title="PRENOM"><br>
                <span id="prenom1"></span>
                <br><label for="sexe">Sexe*</label> <input type="radio" name="sexe" id="sexe" value="féminin"title="SEXE">Féminin
-               <input type="radio" name="sexe" value="masculin" title="SEXE">Masculin<br>
-               <span id="sexe1"></span>
+               <input type="radio" name="sexe"  id="sexe1" value="masculin" title="SEXE">Masculin<br>
+               <span id="sexe2"></span>
                <br><label for="date">Date de naissance* :</label><input type="date" name="date de naissance" id="date" size="10"  title="DATE DE NAISSANCE"><br>
-               <span id="date1"></span>
+               <span id="date1"></span><br>
                <label for="postal">Code postal* :</label><input type="text" name="code postal" id="postal"  size="10" maxlength="10" title="CODE POSTAL"><br>
-               <span id="postal1"></span>
-               <label for="adresse">Adresse :</label><input type="text" name="adresse" id="adresse" size="25" maxlength="50"><br>
-               <span id="adresse1"></span>
-               <label for="ville">Ville </label>:<input type="text" name="ville" id="ville"  size="25" maxlength="50"><br>
-               <span id="ville1"></span>
+               <span id="postal1"></span><br>
+               <label for="adresse">Adresse* :</label><input type="text" name="adresse" id="adresse" size="25" maxlength="50"><br>
+               <span id="adresse1"></span><br>
+               <label for="ville">Ville* </label>:<input type="text" name="ville" id="ville"  size="25" maxlength="50"><br>
+               <span id="ville1"></span><br>
                <label for="email">Email * :</label><input type="email" name="email" id="email" size="25" title="EMAIL"><br>
-               <span id="email1"></span>
+               <span id="email1"></span><br>
             </fieldset><br>
             <fieldset class="fieldset_contact">
                 <legend>Votre demande</legend>
                 <label for="sujet" >Sujet*</label>
-            <span id="sujet1" ></span>
+            <span id="sujet1" ></span><br>
                 <select name="sujet" id="sujet" title="erreur saisie">
                     <option value="" selected>Veuillez séléctionner un sujet.</option>
                     <option value="Mes commandes">Mes commandes</option>
@@ -58,13 +57,15 @@
                     <option value="Autres">Autres</option>
                 </select><br>
                 <label for="question">Votre question* :</label>
-                <span id="question1"></span>
+                <span id="question1"></span><br>
                 <textarea name="question" id="question" cols="25" rows="3"  title="erreur saisie"></textarea>
         </fieldset><br>
         <input type="checkbox" name="accepte traitement informatique" id="données"  title="erreur saisie"> <label for="données">*J'accepte le traitement informatique de ce formulaire</label><br>
-         <br><input type="submit" value="Envoyer"> <input type="reset" value="Annuler"> 
+        <span id="données1"></span>
+         <br><input type="submit" value="Envoyer" id="envoyer"> <input type="reset" value="Annuler" id="annuler"> 
         </article><hr>
     </form>
+    <script src="/assets/js/jarditou_js.js"></script>
     </section>
     <aside class="aside_contact">
         <p class="colonne_aside">[colonne droite]</p>
