@@ -6,7 +6,9 @@ let prenom= prompt("saisir un prenom");
 let index = table.indexOf(prenom)
 if(index > -1){
         table.splice(index,1,"")
-        document.write("Félicitation un prénom trouvé")
+        document.write("Félicitation un prénom trouvé"+"<br>")
+        document.write(table)
+
         vrai=false
         break  
     }

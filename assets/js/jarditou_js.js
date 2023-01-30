@@ -2,8 +2,6 @@ let form = document.getElementById("form");
 form.addEventListener("submit", function (e){
 let nom = document.getElementById("nom");
 let prenom = document.getElementById("prenom");
-let sexe = document.getElementById("sexe");
-let sexe1 = document.getElementById("sexe1");
 let date = document.getElementById("date");
 let postal = document.getElementById("postal");
 let adresse = document.getElementById("adresse");
@@ -25,7 +23,7 @@ if (nom.value.trim() == "") {
 } else if (regexp.test(nom.value) == false) {
   let nom1 = document.getElementById("nom1");
   nom1.innerHTML =
-    "* Veuillez indiquer votre nom";
+    "* Veuillez indiquer votre nom correctement";
   nom1.style.color = "#F00020";
   e.preventDefault();
 }
@@ -37,7 +35,7 @@ if (prenom.value.trim() == "") {
 } else if (regexp.test(prenom.value) == false) {
   let prenom1 = document.getElementById("prenom1");
   prenom1.innerHTML =
-    "* Veuillez indiquer votre prénom";
+    "* Veuillez indiquer votre prénom correctement";
     prenom1.style.color = "#F00020";
   e.preventDefault();
 }
@@ -65,7 +63,7 @@ if (adresse.value.trim() == "") {
   adresse1.style.color = "#F00020";
 } else if (regexp.test(adresse.value) == false) {
   let adresse1 = document.getElementById("adresse1");
-  adresse1.innerHTML = "*Veuillez indiquer votre adresse";
+  adresse1.innerHTML = "*Veuillez indiquer une adresse valide";
   adresse1.style.color = "#F00020";
   e.preventDefault();
 }
@@ -75,7 +73,7 @@ if (ville.value.trim() == "") {
   ville1.style.color = "#F00020";
 } else if (regexp.test(ville.value) == false) {
   let ville1 = document.getElementById("ville1");
-  ville1.innerHTML = "*Veuillez indiquer votre ville";
+  ville1.innerHTML = "*Veuillez indiquer une ville correcte";
   ville1.style.color = "#F00020";
   e.preventDefault();
 }
