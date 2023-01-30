@@ -23,7 +23,7 @@ if (nom.value.trim() == "") {
 } else if (regexp.test(nom.value) == false) {
   let nom1 = document.getElementById("nom1");
   nom1.innerHTML =
-    "* Veuillez indiquer votre nom correctement";
+    "* Veuillez indiquer votre nom correctement (seules les lettres en minuscules et majuscules sont accepter) ";
   nom1.style.color = "#F00020";
   e.preventDefault();
 }
@@ -35,7 +35,7 @@ if (prenom.value.trim() == "") {
 } else if (regexp.test(prenom.value) == false) {
   let prenom1 = document.getElementById("prenom1");
   prenom1.innerHTML =
-    "* Veuillez indiquer votre prénom correctement";
+    "* Veuillez indiquer votre prénom correctement (seules les lettres en minuscules et majuscules sont accepter)";
     prenom1.style.color = "#F00020";
   e.preventDefault();
 }
@@ -53,7 +53,7 @@ if (postal.value.trim() == "") {
 } else if (regexp3.test(postal.value) == false) {
   let postal1 = document.getElementById("postal1");
   postal1.innerHTML =
-    "* vous devez saisir les chiffre de votre code postal";
+    "* vous devez saisir les chiffre de votre code postal (minimun / maximun 5 chiffre)";
     postal1.style.color = "#F00020";
   e.preventDefault();
 }
@@ -63,7 +63,7 @@ if (adresse.value.trim() == "") {
   adresse1.style.color = "#F00020";
 } else if (regexp.test(adresse.value) == false) {
   let adresse1 = document.getElementById("adresse1");
-  adresse1.innerHTML = "*Veuillez indiquer une adresse valide";
+  adresse1.innerHTML = "*Veuillez indiquer une adresse valide (seules les lettres en minuscules et majuscules sont accepter)";
   adresse1.style.color = "#F00020";
   e.preventDefault();
 }
@@ -73,7 +73,7 @@ if (ville.value.trim() == "") {
   ville1.style.color = "#F00020";
 } else if (regexp.test(ville.value) == false) {
   let ville1 = document.getElementById("ville1");
-  ville1.innerHTML = "*Veuillez indiquer une ville correcte";
+  ville1.innerHTML = "*Veuillez indiquer une ville correcte (seules les lettres en minuscules et majuscules sont accepter)";
   ville1.style.color = "#F00020";
   e.preventDefault();
 }
@@ -83,7 +83,7 @@ if (email.value.trim() == "") {
   email1.style.color = "#F00020";
 } else if (regexp2.test(email.value) == false) {
   let email1 = document.getElementById("email1");
-  email1.innerHTML = "*Veuillez indiquer une adresse email valide";
+  email1.innerHTML = "*Veuillez indiquer une adresse email valide ";
   email1.style.color = "#F00020";
   e.preventDefault();
 }

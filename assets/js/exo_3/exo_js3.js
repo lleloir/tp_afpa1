@@ -7,7 +7,7 @@ let index = table.indexOf(prenom)
 if(index > -1){
         table.splice(index,1,"")
         document.write("Félicitation un prénom trouvé"+"<br>")
-        document.write(table)
+        alert(table)
 
         vrai=false
         break  

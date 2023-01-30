@@ -13,9 +13,13 @@ else if (age>20 && age<40){
 personne2++
 continue
 }
-else if (age<=100) {
+else if (age<100) {
 personne3++
 continue
+}
+else if(age=100){
+    personne3++
+    break
 }
 else{
 break
